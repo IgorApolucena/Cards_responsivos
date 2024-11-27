@@ -61,3 +61,25 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
 }
+
+/* Responsividade */
+
+@media screen and (max-width 1000px){
+    .card{
+        width: 40%;
+    }
+}
+/* Tela Laptop desktop */
+
+@media screen and (max-width: 620px){
+    .card{
+        width: 80%;
+    }¨
+    .container{
+        width:80%
+    }
+    .heading{
+        padding: 20px;
+        font-size: 20px;
+    }
+}
